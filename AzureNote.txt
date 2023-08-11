@@ -1,0 +1,24 @@
+Dotent core+			XUnit/NUnit = Deployment strategy= Azure
+				Devops(CI)
+				Azure(CD)
+1. What is Azure Devops?
+2. What are the steps of XUnit in .net Core?
+3. What is pipeline(CI/CD)?
+4. Application Architecture	
+
+
+dotnet add test/CoreWebAPIAzure.Test/CoreWebAPIAzure.Test.csproj reference src/CoreWebAPIAzure/CoreWebAPIAzure.csproj
+
+
+11-08-23
+------------
+
+Q:What is the architecture of the Application?
+    --Core web API solution
+    --Unit Test solution
+    --GitHub Account(Repository is created)
+    --Devops(Integration of repository - Achieving Continous Integration)
+    --Azure(with Devops with GitHub Repository with Application - Continous Deployment)
+
+
+git@github.com:hirdayanand/DotNetCoreApi.git
